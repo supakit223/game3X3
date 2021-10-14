@@ -38,7 +38,6 @@ function cal() {
     }
     const inpObj = document.getElementById("sum")
     if (!inpObj.checkValidity()) {
-
         document.getElementById("alert").classList.remove("invisible")
         document.getElementById("alert").classList.add("visible")
         
@@ -47,10 +46,8 @@ function cal() {
         document.getElementById("output2").classList.remove("visible")
         document.getElementById("output2").classList.add("invisible")
 
-        document.getElementById("alert").innerHTML = inpObj.validationMessage
-
-        
-    }else if(count == 0) {        
+        document.getElementById("alert").innerHTML = inpObj.validationMessage        
+    }else if(count == 0) {           
         document.getElementById("output1").classList.remove("invisible")
         document.getElementById("output1").classList.add("visible")
         document.getElementById("output2").classList.remove("visible")
