@@ -28,23 +28,23 @@ function cal() {
                     </div>
                     <div class="d-flex justify-content-center align-content-center">
                         <div class="mt-3 d-flex align-content-center justify-content-center">
-                            <input id="1" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][0]}">
-                            <input id="2" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][1]}">
-                            <input id="3" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][2]}">
+                            <input id="1" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][0]}">
+                            <input id="2" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][1]}">
+                            <input id="3" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][2]}">
                         </div>
                     </div>
                     <div class="d-flex justify-content-center align-content-center">
                         <div class="mt-3 d-flex align-content-center justify-content-center">
-                            <input id="4" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][3]}">
-                            <input id="5" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][4]}">
-                            <input id="6" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][5]}">
+                            <input id="4" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][3]}">
+                            <input id="5" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][4]}">
+                            <input id="6" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][5]}">
                         </div>
                     </div>
                     <div class="d-flex justify-content-center align-content-center">
                         <div class="mt-3 d-flex align-content-center justify-content-center">
-                            <input id="7" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][6]}">
-                            <input id="8" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][7]}">
-                            <input id="9" class="p-1 mx-2 input" type="number" min="1" max="9" value="${result[i][8]}">
+                            <input id="7" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][6]}">
+                            <input id="8" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][7]}">
+                            <input id="9" disabled class="p-1 mx-2 inputt" type="number" min="1" max="9" value="${result[i][8]}">
                         </div>
                     </div><br>
                     `                       

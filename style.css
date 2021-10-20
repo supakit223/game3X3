@@ -4,6 +4,10 @@
     font-family: 'Sarabun', sans-serif;
     box-sizing: border-box;
 }
+.inputt{
+    text-align: center;
+    font-weight: bold;
+}
 .input{
     text-align: center;
 }
